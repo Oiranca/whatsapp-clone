@@ -1,6 +1,5 @@
+@use "src/style/style";
+
 .title-profile {
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 21px;
+  @include style.Font_Title_Profile;
 }
