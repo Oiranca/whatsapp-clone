@@ -1,5 +1,6 @@
 import "./App.scss";
 import { ImageProfile } from "./componets/atoms/Image/ImageProfile";
+
 import profilePhoto from './mock/img/man.jpeg'
 function App() {
   return (
