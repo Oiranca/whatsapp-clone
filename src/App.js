@@ -1,11 +1,12 @@
-import './App.scss';
-
+import "./App.scss";
+import { ImageProfile } from "./componets/atoms/ImageProfile";
+import profilePhoto from './mock/img/man.jpeg'
 function App() {
-    return (
-        <div className="App">
-           Whatsapp Clone
-        </div>
-    );
+  return (
+    <div className="App">
+      <ImageProfile src={profilePhoto} alt={'Imagen de perfil'}/>
+    </div>
+  );
 }
 
 export default App;
