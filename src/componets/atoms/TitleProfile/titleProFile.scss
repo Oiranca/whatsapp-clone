@@ -1,0 +1,5 @@
+@use "src/style/style";
+
+.title-profile {
+  @include style.Font_Title_Profile;
+}

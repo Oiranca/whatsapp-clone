@@ -1,0 +1,5 @@
+@use "src/style/style";
+
+.text-preview {
+  @include style.Font_Text_Preview;
+}

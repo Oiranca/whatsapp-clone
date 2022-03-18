@@ -1,0 +1,45 @@
+//Color Application
+
+$Color_NavBar_Background_Application: #54A984;
+$Color_NavBar_Application: #F0F2F5;
+$Color_NavBar_Mobile: #3E816A;
+$Color_Message_Received: #D7F7D3;
+
+//Font application
+$Font_App: 'Helvetica', sans-serif;
+$Color_Profile:#111b21;
+$Color_Preview:#3b4a54;
+$Color_Date:#667781;
+
+@mixin Font_Title_Profile {
+  font-family: $Font_App;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  color: $Color_Profile;
+}
+
+
+@mixin Font_Text_Preview {
+  font-family: $Font_App;
+  font-size: 14px;
+  line-height: 20px;
+  color: $Color_Preview;
+}
+
+@mixin Font_Text_Date {
+  font-family: $Font_App;
+  font-size: 12px;
+  line-height: 14px;
+  color:$Color_Date ;
+}
+
+
+@mixin Text_Search_And_Chat_Input {
+  font-family: $Font_App;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+
+}
+
