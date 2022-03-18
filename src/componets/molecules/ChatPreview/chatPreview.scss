@@ -1,0 +1,36 @@
+@use "src/style/style";
+.container-chat-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  column-gap: 2rem;
+  height: 50px;
+  margin: 1rem;
+
+  .title-and-textPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .title-profile {
+      margin: 2px;
+    }
+
+    .text-preview {
+      margin: 2px;
+      color: style.$Color_Preview;
+
+    }
+  }
+
+  .container-date-text{
+    margin-left: 4.5rem;
+  }
+
+
+}
+
+
+
+
