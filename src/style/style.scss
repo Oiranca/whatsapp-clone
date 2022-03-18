@@ -7,9 +7,9 @@ $Color_Message_Received: #D7F7D3;
 
 //Font application
 $Font_App: 'Helvetica', sans-serif;
-$Color_Profile:#111b21;
-$Color_Preview:#3b4a54;
-$Color_Date:#667781;
+$Color_Profile: #111b21;
+$Color_Preview: #3b4a54;
+$Color_Date: #667781;
 
 @mixin Font_Title_Profile {
   font-family: $Font_App;
@@ -31,7 +31,7 @@ $Color_Date:#667781;
   font-family: $Font_App;
   font-size: 12px;
   line-height: 14px;
-  color:$Color_Date ;
+  color: $Color_Date;
 }
 
 
@@ -43,3 +43,20 @@ $Color_Date:#667781;
 
 }
 
+//Menu mobile bar
+
+@mixin Display_Menu_Mobile {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin Title_Menu_Bar{
+  font-size: 15px;
+  color: aliceblue;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
