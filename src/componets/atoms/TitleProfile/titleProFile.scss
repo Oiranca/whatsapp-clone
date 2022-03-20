@@ -2,4 +2,7 @@
 
 .title-profile {
   @include style.Font_Title_Profile;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

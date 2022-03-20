@@ -1,0 +1,10 @@
+.list-users {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0;
+  list-style: none;
+
+  .users {
+  }
+}
