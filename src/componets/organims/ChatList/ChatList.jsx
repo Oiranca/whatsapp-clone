@@ -9,17 +9,16 @@ export const ChatList = () => {
   useEffect(() => {
     setUseData([...users]);
   }, []);
-  console.log(users);
   return (
     <ul className={"list-users"}>{
-      userData.map(items =>
+      userData.map((items,index) =>
         <li key={items.name} className={"users"}>
           <ChatPreview title={items.name}
                        src={items.photo}
                        alt={"Photo Profile"}
                        text={items.text}
                        date={items.dateInformation.date}
-                       meridiem={items.dateInformation.meridiem} />
+                       meridiem={items.dateInformation.meridiem} indexNumber={{index}}/>
         </li>
       )
     }</ul>

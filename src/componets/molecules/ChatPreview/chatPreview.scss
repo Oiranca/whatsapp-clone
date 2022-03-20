@@ -23,6 +23,13 @@
       color: style.$Color_Preview;
 
     }
+
+    .text-with-check{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
   }
 
   .container-date-text, .date-style {
