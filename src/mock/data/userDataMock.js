@@ -7,6 +7,7 @@ import Ang from '../img/Ang_Li.jpeg';
 import Nguta from '../img/Nguta_Ithya.jpeg';
 import Salome from '../img/Salome_Simoes.jpeg';
 import Andrew from '../img/Andrew_Kazantzis.jpeg';
+import Profile from '../img/Profile.jpg';
 
 export const users = [
   {
@@ -91,3 +92,7 @@ export const users = [
     text: 'Proin non tristique libero, a luctus nisl. Morbi euismod, libero non tempor.'
   }
 ];
+
+export const profilePhoto = {
+  src: Profile
+};

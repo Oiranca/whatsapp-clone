@@ -3,9 +3,9 @@ import React from "react";
 import { MdPhotoCamera } from "react-icons/md";
 import { TitleProfile } from "../../atoms/TitleProfile/TitleProfile";
 
-import "./navMenuBar.scss";
+import "./navMobileMenu.scss";
 
-export const NavMenuBar = () => {
+export const NavMobileMenu = () => {
   const iconsStyle = { size: "1.5rem", color: "#F0F8FFFF" };
 
   return (<article className={"menu-container"}>
