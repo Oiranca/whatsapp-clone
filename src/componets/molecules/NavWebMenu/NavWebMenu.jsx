@@ -1,8 +1,8 @@
 import React from 'react';
+import { InputText } from '../../atoms/InputText/InputText';
 import { AiOutlineSearch } from 'react-icons/ai';
 
 import './navWebMenu.scss';
-import { InputText } from '../../atoms/InputText/InputText';
 
 export const NavWebMenu = () => {
   const iconsStyle = { size: "1.5rem", color: "#3b4a54" };

@@ -1,0 +1,23 @@
+@use "src/style/style";
+
+.chat-web-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: style.$Color_NavBar_Application;
+  padding: 0.5rem;
+
+  .text-input {
+    border: none;
+    background: white;
+    width: 80%;
+    border-radius: 8rem;
+    padding: 1rem;
+  }
+
+  #attach-icon{
+    transform: rotate(45deg) rotateY(180deg);
+  }
+}
