@@ -1,0 +1,42 @@
+@use "src/style/style";
+
+
+.chat-view-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  @include style.Background_Chat_Container;
+
+  .chat-conversation-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem 4rem 1rem;
+
+    .response {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+
+      .response-phrase {
+        @include style.Size_Chats;
+        border-radius: 0 0.5rem 0.5rem 1.5rem;
+        background: whitesmoke;
+      }
+
+    }
+
+    .answers {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+
+      .answers-phrase {
+        @include style.Size_Chats;
+        border-radius: 0.5rem 0 1.5rem 0.5rem;
+        background: style.$Color_Message_Received;
+      }
+
+    }
+  }
+}

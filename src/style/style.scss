@@ -60,3 +60,14 @@ $Color_Date: #667781;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
+// Chat Container
+@mixin Background_Chat_Container{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+@mixin Size_Chats{
+  max-width: 575px;
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
