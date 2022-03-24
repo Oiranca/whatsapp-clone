@@ -36,14 +36,14 @@
 
     #top-left-circle {
       position: absolute;
-      right: 90px;
+      left: 390px;
       color: #667781;
 
     }
 
     #top-right-circle {
       position: absolute;
-      right: 92px;
+      left: 389px;
       color: #667781;
       transform: rotate(-90deg);
     }
@@ -51,7 +51,7 @@
     #bottom-left-circle {
       position: absolute;
       top: 23px;
-      right: 90px;
+      left: 390px;
       color: #667781;
       transform: rotate(90deg);
 
@@ -61,7 +61,7 @@
     #bottom-right-circle {
       position: absolute;
       top: 23px;
-      right: 92px;
+      left: 389px;
       color: #667781;
       transform: rotate(-180deg);
     }
