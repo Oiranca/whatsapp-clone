@@ -5,18 +5,23 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  @include style.Background_Chat_Container;
+  width: 100vw;
+  height: 100vh;
 
   .chat-conversation-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 1rem 4rem 1rem;
+    width: 100%;
+    height: 100%;
+    @include style.Background_Chat_Container;
+
 
     .response {
       display: flex;
       flex-direction: row;
       justify-content: left;
+      margin-left: 1rem;
 
       .response-phrase {
         @include style.Size_Chats;
@@ -30,6 +35,7 @@
       display: flex;
       flex-direction: row;
       justify-content: right;
+      margin-right: 1rem;
 
       .answers-phrase {
         @include style.Size_Chats;

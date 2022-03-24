@@ -1,18 +1,17 @@
 import React from 'react';
-import { NavWebTitle } from '../../molecules/NavWebTitle/NavWebTitle';
 import { InputNavChatWeb } from '../../molecules/InputNavChatWeb/InputNavChatWeb';
 
 import './chatView.scss';
+import { NavChatWeb } from '../../molecules/NavChatWeb/NavChatWeb';
 
 export const ChatView = () => {
-  
   return (
     <article className={'chat-view-container'}>
       <header>
-        <NavWebTitle />
+        <NavChatWeb />
       </header>
       <article className={'chat-conversation-container'}>
-               <div className={'response'}>
+        <div className={'response'}>
           <p className={'response-phrase'}>
             Buenos días sin problema luego te dijo algo del
             lunesluneslunesluneslunesluneslunesluneslunesluneslunesluneslunes
