@@ -21,7 +21,8 @@
       height: 50px;
       margin: 0.5rem 1rem;
     }
-    .title-profile{
+
+    .title-profile {
       color: #667781;
     }
   }
@@ -33,38 +34,13 @@
     column-gap: 1rem;
     margin-right: 0.5rem;
 
-
-    #top-left-circle {
-      position: absolute;
-      left: 390px;
-      color: #667781;
-
+    .top-circle {
+      border-radius: 50%;
+      border: 2px dashed #667781;
+      width: 20px;
+      margin-right: 0.5rem;
     }
 
-    #top-right-circle {
-      position: absolute;
-      left: 389px;
-      color: #667781;
-      transform: rotate(-90deg);
-    }
-
-    #bottom-left-circle {
-      position: absolute;
-      top: 23px;
-      left: 390px;
-      color: #667781;
-      transform: rotate(90deg);
-
-
-    }
-
-    #bottom-right-circle {
-      position: absolute;
-      top: 23px;
-      left: 389px;
-      color: #667781;
-      transform: rotate(-180deg);
-    }
   }
 
 }
