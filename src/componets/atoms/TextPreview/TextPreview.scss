@@ -2,7 +2,7 @@
 
 .text-preview {
   @include style.Font_Text_Preview;
-  width: 60vw;
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
