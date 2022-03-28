@@ -15,7 +15,12 @@ export const ChatPreview = chatPreviewProps => {
     <article className={'container-chat-menu'}>
       <ImageProfile src={src} alt={alt} />
       <section className={'title-and-textPreview'}>
-        <TitleProfile title={title} />
+       <header className={'header-preview'}>
+         <TitleProfile title={title} />
+         <DateText date={date} meridiem={meridiem} />
+
+       </header>
+
         {indexNumber.index % 2 === 0 ? (
           <section className={'text-with-check'}>
             <BsCheckAll size={iconsStyle.size} color={iconsStyle.color} />
@@ -25,7 +30,6 @@ export const ChatPreview = chatPreviewProps => {
           <TextPreview text={text} />
         )}
       </section>
-      <DateText date={date} meridiem={meridiem} />
     </article>
   );
 };
