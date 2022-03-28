@@ -17,7 +17,7 @@ export const ChatListView = () => {
     });
   }, []);
   return (
-    <article className={'chatView-container'}>
+    <article className={'list-view-container'}>
       {widthWindows >= 600 ? (
         <section className={'nav-menu'}>
           <NavWebTitle />

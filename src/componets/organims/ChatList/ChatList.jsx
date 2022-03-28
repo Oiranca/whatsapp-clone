@@ -12,7 +12,7 @@ export const ChatList = () => {
   return (
     <ul className={"list-users"}>{
       userData.map((items,index) =>
-        <li key={items.name} className={"users"}>
+        <li key={items.name} className={"user-row"}>
           <ChatPreview title={items.name}
                        src={items.photo}
                        alt={"Photo Profile"}
