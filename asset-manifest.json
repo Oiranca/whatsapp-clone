@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/whatsapp-clone/static/css/main.62630b87.css",
+    "main.js": "/whatsapp-clone/static/js/main.7b78d18b.js",
+    "static/js/787.9df3cdb1.chunk.js": "/whatsapp-clone/static/js/787.9df3cdb1.chunk.js",
+    "static/media/Mia_Wong.jpeg": "/whatsapp-clone/static/media/Mia_Wong.ebb63b37445ff387d0e8.jpeg",
+    "static/media/Ponnappa_Priya.jpeg": "/whatsapp-clone/static/media/Ponnappa_Priya.0ceaed0142470347f3de.jpeg",
+    "static/media/Andrew_Kazantzis.jpeg": "/whatsapp-clone/static/media/Andrew_Kazantzis.dec9d585dbf4c84a8a72.jpeg",
+    "static/media/Salome_Simoes.jpeg": "/whatsapp-clone/static/media/Salome_Simoes.cedfd06b0bcaf6fde5ea.jpeg",
+    "static/media/Natalie_Lee-Walsh.jpeg": "/whatsapp-clone/static/media/Natalie_Lee-Walsh.04ee83304669cd7b3ae5.jpeg",
+    "static/media/Peter_Stanbridge.jpeg": "/whatsapp-clone/static/media/Peter_Stanbridge.90ba04c6c9c36feed406.jpeg",
+    "static/media/Ang_Li.jpeg": "/whatsapp-clone/static/media/Ang_Li.bbff0c6f7ad85e81a812.jpeg",
+    "static/media/Nguta_Ithya.jpeg": "/whatsapp-clone/static/media/Nguta_Ithya.503b7ebebdc89a4c3350.jpeg",
+    "static/media/John_Stone.jpeg": "/whatsapp-clone/static/media/John_Stone.d045d24cb9adc8c74559.jpeg",
+    "static/media/Profile.jpg": "/whatsapp-clone/static/media/Profile.d7f1a1c6c487cbf9c1ca.jpg",
+    "static/media/background.jpg": "/whatsapp-clone/static/media/background.db81eaad057a01ea1ede.jpg",
+    "index.html": "/whatsapp-clone/index.html",
+    "main.62630b87.css.map": "/whatsapp-clone/static/css/main.62630b87.css.map",
+    "main.7b78d18b.js.map": "/whatsapp-clone/static/js/main.7b78d18b.js.map",
+    "787.9df3cdb1.chunk.js.map": "/whatsapp-clone/static/js/787.9df3cdb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62630b87.css",
+    "static/js/main.7b78d18b.js"
+  ]
+}
