@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageProfile } from '../../atoms/ImageProfile/ImageProfile';
-import { profilePhoto } from '../../../mock/data/userDataMock';
+import { users } from '../../../mock/data/userDataMock';
 import { TitleProfile } from '../../atoms/TitleProfile/TitleProfile';
 import { TextPreview } from "../../atoms/TextPreview/TextPreview";
 
@@ -14,9 +14,9 @@ export const NavChatWeb = () => {
   return (
     <article className={'nav-chat-web'}>
       <section className={'profile-web-chat'}>
-        <ImageProfile src={profilePhoto.src} alt={'Profile Photo'} />
+        <ImageProfile src={users[0].photo} alt={'Profile Photo'} />
         <section className={'title-chat-web'}>
-          <TitleProfile title={'Nombre'} />
+          <TitleProfile title={users[0].name} />
           <TextPreview text={'online'}/>
         </section>
       </section>

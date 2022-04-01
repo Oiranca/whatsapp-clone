@@ -17,7 +17,7 @@ export const users = [
       date: '13:00',
       meridiem: 'pm'
     },
-    text: 'Praesent maximus mauris sit amet arcu vehicula commodo. Praesent sit amet neque.'
+    text: 'Oook 👌🏽👌🏽, nos vemos el sábado!!'
   },
   {
     name: 'Ponnappa Priya',

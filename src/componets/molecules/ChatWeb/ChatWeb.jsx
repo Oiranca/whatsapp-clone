@@ -1,35 +1,30 @@
-import React from "react";
-import { Response } from "../../atoms/Response/Response";
-import { Answer } from "../../atoms/Answer/Answer";
-import "./chatWeb.scss";
+import React from 'react';
+import { Response } from '../../atoms/Response/Response';
+import { Answer } from '../../atoms/Answer/Answer';
+import {
+  answerConversation,
+  responseConversation
+} from '../../../mock/data/chatConversation';
+import './chatWeb.scss';
 
-const mockText = {
-  text:
-    'Buenos días, hoy no voy a poder ir a tu oficina.' +
-    'El problema es que no sé a que hora sale Jenny de la operación ' +
-    'y además me ha surgido una prueba técnica para un puesto, lo siento.' +
-    'Podría ir el lunes que ya estoy de vacaciones ypuedo ir a cualquier hora? Un saludo Un saludo'
-};
 export const ChatWeb = () => {
-
-  return(
+  return (
     <div className={'chat-web-container'}>
-      <Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} /><Response responseText={mockText.text} />
-      <Answer answerText={mockText.text} />
+      <Answer answerText={answerConversation[0]} />
+      <Response responseText={responseConversation[0]} />
+      <Answer answerText={answerConversation[1]} />
+      <Response responseText={responseConversation[1]} />
+      <Response responseText={responseConversation[2]} />
+      <Answer answerText={answerConversation[2]} />
+      <Answer answerText={answerConversation[3]} />
+      <Answer answerText={answerConversation[4]} />
+      <Response responseText={responseConversation[3]} />
+      <Response responseText={responseConversation[4]} />
+      <Answer answerText={answerConversation[5]} />
+      <Answer answerText={answerConversation[6]} />
+      <Response responseText={responseConversation[5]} />
+      <Response responseText={responseConversation[6]} />
+      <Answer answerText={answerConversation[7]} />
     </div>
-  )
-}
-
+  );
+};
