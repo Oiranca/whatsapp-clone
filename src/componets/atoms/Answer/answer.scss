@@ -6,6 +6,7 @@
   justify-content: right;
   margin-right: 1rem;
   width: 100%;
+  height: fit-content;
 
   .answer-phrase {
     @include style.Size_Chats;
