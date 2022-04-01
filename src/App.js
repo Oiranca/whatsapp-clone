@@ -1,9 +1,9 @@
-import "./App.scss";
+import { ListAndChat } from './componets/templates/ListAndChat/ListAndChat';
 
 function App() {
   return (
     <div className="App">
-      Aquí toda la aplicacion
+      <ListAndChat />
     </div>
   );
 }

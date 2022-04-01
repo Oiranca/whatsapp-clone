@@ -4,7 +4,9 @@
   flex-wrap: nowrap;
   padding: 0;
   list-style: none;
+  overflow: hidden;
 
-  .users {
+  .user-row:first-child {
+    background: #F0F2F5;
   }
 }

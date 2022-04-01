@@ -1,0 +1,18 @@
+@use "src/style/style";
+
+.response-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 1rem;
+  width: 100%;
+  height: fit-content;
+
+
+  .response-phrase {
+    @include style.Size_Chats;
+    border-radius: 0 0.5rem 0.5rem 1.5rem;
+    background: whitesmoke;
+  }
+
+}

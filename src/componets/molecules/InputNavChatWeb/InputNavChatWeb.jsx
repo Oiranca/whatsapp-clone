@@ -11,7 +11,7 @@ export const InputNavChatWeb = () => {
   const iconsStyle = { size: "1.5rem", color: "#3b4a54" };
 
   return(
-    <article className={'chat-web-container'}>
+    <article className={'input-web-container'}>
       <BiHappy size={iconsStyle.size} color={iconsStyle.color}/>
       <MdAttachFile size={"2rem"} color={iconsStyle.color} id={'attach-icon'}/>
       <InputText placeHolder={'Type a message'} />

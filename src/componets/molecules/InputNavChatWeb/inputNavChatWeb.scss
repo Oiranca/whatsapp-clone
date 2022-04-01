@@ -1,6 +1,6 @@
 @use "src/style/style";
 
-.chat-web-container {
+.input-web-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -17,7 +17,7 @@
     padding: 1rem;
   }
 
-  #attach-icon{
+  #attach-icon {
     transform: rotate(45deg) rotateY(180deg);
   }
 }

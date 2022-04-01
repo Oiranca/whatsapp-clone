@@ -9,23 +9,27 @@ import './chatPreview.scss';
 
 export const ChatPreview = chatPreviewProps => {
   const { indexNumber, src, alt, title, text, date, meridiem } = chatPreviewProps;
-  const iconsStyle = { size: "1.5rem", color: "#3b4a54" };
+  const iconsStyle = { size: '1.5rem', color: '#3b4a54' };
 
   return (
     <article className={'container-chat-menu'}>
       <ImageProfile src={src} alt={alt} />
       <section className={'title-and-textPreview'}>
-        <TitleProfile title={title} />
+       <header className={'header-preview'}>
+         <TitleProfile title={title} />
+         <DateText date={date} meridiem={meridiem} />
+
+       </header>
+
         {indexNumber.index % 2 === 0 ? (
           <section className={'text-with-check'}>
-            <BsCheckAll size={iconsStyle.size} color={iconsStyle.color}/>
+            <BsCheckAll size={iconsStyle.size} color={iconsStyle.color} />
             <TextPreview text={text} />
           </section>
         ) : (
           <TextPreview text={text} />
         )}
       </section>
-      <DateText date={date} meridiem={meridiem} />
     </article>
   );
 };
