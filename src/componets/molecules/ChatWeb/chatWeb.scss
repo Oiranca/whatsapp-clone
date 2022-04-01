@@ -1,0 +1,11 @@
+@use "src/style/style";
+
+.chat-web-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: scroll;
+  @include style.Background_Chat_Container;
+}

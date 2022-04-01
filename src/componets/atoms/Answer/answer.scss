@@ -1,0 +1,15 @@
+@use "src/style/style";
+
+.answer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 1rem;
+  width: 100%;
+
+  .answer-phrase {
+    @include style.Size_Chats;
+    border-radius: 0.5rem 0 1.5rem 0.5rem;
+    background: style.$Color_Message_Received;
+  }
+}

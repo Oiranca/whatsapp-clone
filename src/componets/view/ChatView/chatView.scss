@@ -10,39 +10,7 @@
 
   .chat-conversation-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    @include style.Background_Chat_Container;
-
-
-    .response {
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-      margin-left: 1rem;
-
-      .response-phrase {
-        @include style.Size_Chats;
-        border-radius: 0 0.5rem 0.5rem 1.5rem;
-        background: whitesmoke;
-      }
-
-    }
-
-    .answers {
-      display: flex;
-      flex-direction: row;
-      justify-content: right;
-      margin-right: 1rem;
-
-      .answers-phrase {
-        @include style.Size_Chats;
-        border-radius: 0.5rem 0 1.5rem 0.5rem;
-        background: style.$Color_Message_Received;
-      }
-
-    }
   }
 }

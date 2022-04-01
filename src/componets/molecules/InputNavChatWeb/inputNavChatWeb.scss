@@ -1,6 +1,6 @@
 @use "src/style/style";
 
-.chat-web-container {
+.input-web-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -8,7 +8,7 @@
   align-items: center;
   background: style.$Color_NavBar_Application;
   padding: 0.5rem;
-width: 100%;
+
   .text-input {
     border: none;
     background: white;
@@ -17,7 +17,7 @@ width: 100%;
     padding: 1rem;
   }
 
-  #attach-icon{
+  #attach-icon {
     transform: rotate(45deg) rotateY(180deg);
   }
 }
