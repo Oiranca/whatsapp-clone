@@ -1,9 +1,9 @@
 import React from 'react';
 import { InputNavChatWeb } from '../../molecules/InputNavChatWeb/InputNavChatWeb';
-
-import './chatView.scss';
 import { NavChatWeb } from '../../molecules/NavChatWeb/NavChatWeb';
 import { ChatWeb } from '../../molecules/ChatWeb/ChatWeb';
+import './chatView.scss';
+
 
 export const ChatView = () => {
   return (

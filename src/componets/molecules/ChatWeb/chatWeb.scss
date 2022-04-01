@@ -6,6 +6,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
   @include style.Background_Chat_Container;
 }
