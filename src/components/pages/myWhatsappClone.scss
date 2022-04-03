@@ -1,0 +1,26 @@
+@use "src/style/style";
+
+.container-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: style.$Color_Background_Web;
+
+  .header {
+    background: style.$Color_Header_Web;
+    width: 100%;
+    padding: 4rem;
+  }
+
+  .list-and-chat-container {
+    position: absolute;
+    top: 1rem;
+    width: calc(100% - 25%);
+    height: calc(100% - 5%);
+  }
+}

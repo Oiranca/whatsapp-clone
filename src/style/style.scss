@@ -1,5 +1,6 @@
 //Color Application
-
+$Color_Background_Web: #DDDEDD;
+$Color_Header_Web: #00A884;
 $Color_NavBar_Background_Application: #54A984;
 $Color_NavBar_Application: #F0F2F5;
 $Color_NavBar_Mobile: #3E816A;
@@ -54,19 +55,20 @@ $Color_Date: #667781;
   align-items: center;
 }
 
-@mixin Title_Menu_Bar{
+@mixin Title_Menu_Bar {
   font-size: 15px;
   color: aliceblue;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
 // Chat Container
-@mixin Background_Chat_Container{
+@mixin Background_Chat_Container {
   background-image: url("background.jpg");
   background-size: cover;
 }
 
-@mixin Size_Chats{
+@mixin Size_Chats {
   max-width: 575px;
   padding: 0.8rem;
   margin: 0.5rem;

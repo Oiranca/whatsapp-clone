@@ -1,9 +1,10 @@
-import { ListAndChat } from './components/templates/ListAndChat/ListAndChat';
+import { MyWhatsappClone } from './components/pages/MyWhatsappClone';
+
 
 function App() {
   return (
     <div className="App">
-      <ListAndChat />
+      <MyWhatsappClone />
     </div>
   );
 }
