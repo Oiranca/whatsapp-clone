@@ -16,7 +16,7 @@ export const ChatList = () => {
           <ChatPreview title={items.name}
                        src={items.photo}
                        alt={"Photo Profile"}
-                       text={items.text}
+                       text={items.preview}
                        date={items.dateInformation.date}
                        meridiem={items.dateInformation.meridiem} indexNumber={{index}}/>
         </li>

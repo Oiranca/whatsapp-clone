@@ -1,4 +1,4 @@
-import { ListAndChat } from './componets/templates/ListAndChat/ListAndChat';
+import { ListAndChat } from './components/templates/ListAndChat/ListAndChat';
 
 function App() {
   return (

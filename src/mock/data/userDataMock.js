@@ -17,7 +17,7 @@ export const users = [
       date: '13:00',
       meridiem: 'pm'
     },
-    text: 'Oook 👌🏽👌🏽, nos vemos el sábado!!'
+    preview: 'Oook 👌🏽👌🏽, nos vemos el sábado!!'
   },
   {
     name: 'Ponnappa Priya',
@@ -26,7 +26,7 @@ export const users = [
       date: 'yesterday',
       meridiem: ''
     },
-    text: 'Maecenas augue nibh, hendrerit at ligula quis, aliquam tristique ante. Aenean auctor.'
+    preview: 'Maecenas augue nibh, hendrerit at ligula quis, aliquam tristique ante. Aenean auctor.'
   },
   {
     name: 'Mia Wong',
@@ -35,7 +35,7 @@ export const users = [
       date: '14:00',
       meridiem: 'pm'
     },
-    text: 'Vestibulum eget magna diam. Nullam posuere ac dolor nec pulvinar. Quisque eu.'
+    preview: 'Vestibulum eget magna diam. Nullam posuere ac dolor nec pulvinar. Quisque eu.'
   },
   {
     name: 'Peter Stanbridge',
@@ -44,7 +44,7 @@ export const users = [
       date: '13:45',
       meridiem: 'pm'
     },
-    text: 'Nam vitae magna ac risus vestibulum ultrices at quis lectus. In vel.'
+    preview: 'Nam vitae magna ac risus vestibulum ultrices at quis lectus. In vel.'
   },
   {
     name: 'Natalie Lee-Walsh',
@@ -53,7 +53,7 @@ export const users = [
       date: '17:00',
       meridiem: 'pm'
     },
-    text: 'Sed id viverra massa. Sed molestie enim vel ornare sodales. Lorem ipsum.'
+    preview: 'Sed id viverra massa. Sed molestie enim vel ornare sodales. Lorem ipsum.'
   },
   {
     name: 'Ang Li',
@@ -62,7 +62,7 @@ export const users = [
       date: 'yesterday',
       meridiem: ''
     },
-    text: 'Nam sit amet commodo massa. Suspendisse quis massa ac leo bibendum pharetra.'
+    preview: 'Nam sit amet commodo massa. Suspendisse quis massa ac leo bibendum pharetra.'
   },
   {
     name: 'Nguta Ithya',
@@ -71,7 +71,7 @@ export const users = [
       date: '15:00',
       meridiem: 'pm'
     },
-    text: 'Proin suscipit et ligula a porta. Morbi lacinia, quam at viverra volutpat.'
+    preview: 'Proin suscipit et ligula a porta. Morbi lacinia, quam at viverra volutpat.'
   },
   {
     name: 'Salome Simoes',
@@ -80,7 +80,7 @@ export const users = [
       date: '15:50',
       meridiem: 'pm'
     },
-    text: 'Vestibulum lectus tellus, mollis vel molestie at, rhoncus et orci. Nam rhoncus.'
+    preview: 'Vestibulum lectus tellus, mollis vel molestie at, rhoncus et orci. Nam rhoncus.'
   },
   {
     name: 'Andrew Kazantzis',
@@ -89,7 +89,7 @@ export const users = [
       date: '13:50',
       meridiem: 'pm'
     },
-    text: 'Proin non tristique libero, a luctus nisl. Morbi euismod, libero non tempor.'
+    preview: 'Proin non tristique libero, a luctus nisl. Morbi euismod, libero non tempor.'
   }
 ];
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavMobileTitle } from '../../molecules/NavMobileTitle/NavMobileTitle';
 import { NavMobileMenu } from '../../molecules/NavMobileMenu/NavMobileMenu';
-import { ChatList } from '../../organims/ChatList/ChatList';
+import { ChatList } from '../../organisms/ChatList/ChatList';
 import { NavWebTitle } from '../../molecules/NavWebTitle/NavWebTitle';
 import { NavWebMenu } from '../../molecules/NavWebMenu/NavWebMenu';
 import { SiGooglemessages } from 'react-icons/si';
