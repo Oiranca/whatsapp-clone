@@ -1,7 +1,7 @@
 import React from 'react';
+import { ListAndChat } from '../templates/ListAndChat/ListAndChat';
 
 import './myWhatsappClone.scss';
-import { ListAndChat } from '../templates/ListAndChat/ListAndChat';
 
 export const MyWhatsappClone = () => {
   return (
