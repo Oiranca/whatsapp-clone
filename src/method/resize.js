@@ -5,7 +5,9 @@ export const useWindowWidth = () => {
 
   useEffect(() => {
     const listener = () => {
-      setWindowsWith(window.innerWidth);
+      if (window.innerWidth < 960 && window.innerWidth !== 0) {
+        setWindowsWith(window.innerWidth);
+      }
     };
 
     window.addEventListener('resize', listener);
