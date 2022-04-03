@@ -1,8 +1,9 @@
 import React from 'react';
-
-import './listAndChat.scss';
 import { ChatListView } from '../../views/ChatListView/ChatListView';
 import { ChatView } from '../../views/ChatView/ChatView';
+
+import './listAndChat.scss';
+
 
 export const ListAndChat = () => {
   return (

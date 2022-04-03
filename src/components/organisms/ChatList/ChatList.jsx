@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { users } from "../../../mock/data/userDataMock";
-import { ChatPreview } from "../../molecules/ChatPreview/ChatPreview";
-import "./chatList.scss";
+import React, { useEffect, useState } from 'react';
+import { users } from '../../../mock/data/userDataMock';
+import { ChatPreview } from '../../molecules/ChatPreview/ChatPreview';
+import './chatList.scss';
 
 export const ChatList = () => {
   const [userData, setUseData] = useState([]);
@@ -10,17 +10,20 @@ export const ChatList = () => {
     setUseData([...users]);
   }, []);
   return (
-    <ul className={"list-users"}>{
-      userData.map((items,index) =>
-        <li key={items.name} className={"user-row"}>
-          <ChatPreview title={items.name}
-                       src={items.photo}
-                       alt={"Photo Profile"}
-                       text={items.preview}
-                       date={items.dateInformation.date}
-                       meridiem={items.dateInformation.meridiem} indexNumber={{index}}/>
+    <ul className={'list-users'}>
+      {userData.map((items, index) => (
+        <li key={items.name} className={'user-row'}>
+          <ChatPreview
+            title={items.name}
+            src={items.photo}
+            alt={'Photo Profile'}
+            text={items.preview}
+            date={items.dateInformation.date}
+            meridiem={items.dateInformation.meridiem}
+            indexNumber={{ index }}
+          />
         </li>
-      )
-    }</ul>
+      ))}
+    </ul>
   );
 };

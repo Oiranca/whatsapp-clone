@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from "prop-types";
+
 import { BsCheckAll } from 'react-icons/bs';
 import { ImageProfile } from '../../atoms/ImageProfile/ImageProfile';
 import { TitleProfile } from '../../atoms/TitleProfile/TitleProfile';
@@ -7,8 +9,8 @@ import { DateText } from '../../atoms/DateText/DateText';
 
 import './chatPreview.scss';
 
-export const ChatPreview = chatPreviewProps => {
-  const { indexNumber, src, alt, title, text, date, meridiem } = chatPreviewProps;
+export const ChatPreview = previewData => {
+  const { indexNumber, src, alt, title, text, date, meridiem } = previewData;
   const iconsStyle = { size: '1.5rem', color: '#3b4a54' };
 
   return (
@@ -33,3 +35,7 @@ export const ChatPreview = chatPreviewProps => {
     </article>
   );
 };
+
+ChatPreview.propTypes={
+  previewData:PropTypes.object
+}
