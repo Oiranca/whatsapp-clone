@@ -6,8 +6,6 @@ import './myWhatsappClone.scss';
 import { ChatMobileView } from '../views/ChatMobileView/ChatMobileView';
 
 export const MyWhatsappClone = () => {
-  console.log(useWindowWidth());
-
   return (
     <div className={'container-page'}>
       <header className={'header'} />

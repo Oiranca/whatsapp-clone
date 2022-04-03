@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
 export const useWindowWidth = () => {
-  const [windowsWidth, setWindowsWith] = useState(0);
+  const [windowsWidth, setWindowsWith] = useState(960);
 
   useEffect(() => {
     const listener = () => {
-      if (window.innerWidth < 960 && window.innerWidth !== 0) {
+      if (window.innerWidth !== 0) {
         setWindowsWith(window.innerWidth);
       }
     };
