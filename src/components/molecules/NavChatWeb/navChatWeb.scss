@@ -6,7 +6,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
   background: style.$Color_NavBar_Application;
 
   .profile-web-chat {
@@ -26,6 +26,11 @@
       justify-content: left;
       align-items: start;
       text-align: start;
+
+      .image-profile {
+        width: 40px;
+        height: 40px;
+      }
 
       .title-profile {
         margin: 0;
