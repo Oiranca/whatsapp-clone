@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './dateText.scss';
 
-export const DateText = textDate => {
-  const { meridiem = '', date } = textDate;
+export const DateText = text => {
+  const { meridiem = '', date } = text;
 
   if (meridiem !== '') {
     return (
@@ -14,4 +15,7 @@ export const DateText = textDate => {
   } else {
     return <p className={'date-style'}>{date.toLowerCase()}</p>;
   }
+};
+DateText.propTypes = {
+  text: PropTypes.object
 };

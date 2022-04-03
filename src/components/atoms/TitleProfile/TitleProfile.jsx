@@ -1,7 +1,12 @@
-import React from "react";
-import "./titleProFile.scss";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export const TitleProfile = (textProfile) => {
-  const { title } = textProfile;
-  return (<h3 className={'title-profile'}>{title}</h3>);
+import './titleProFile.scss';
+
+export const TitleProfile = title => {
+  return <h3 className={'title-profile'}>{title.title}</h3>;
+};
+
+TitleProfile.propTypes = {
+  title: PropTypes.string
 };

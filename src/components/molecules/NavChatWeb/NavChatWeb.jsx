@@ -2,7 +2,7 @@ import React from 'react';
 import { ImageProfile } from '../../atoms/ImageProfile/ImageProfile';
 import { users } from '../../../mock/data/userDataMock';
 import { TitleProfile } from '../../atoms/TitleProfile/TitleProfile';
-import { TextPreview } from "../../atoms/TextPreview/TextPreview";
+import { TextPreview } from '../../atoms/TextPreview/TextPreview';
 
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BsThreeDotsVertical } from 'react-icons/bs';
@@ -17,7 +17,7 @@ export const NavChatWeb = () => {
         <ImageProfile src={users[0].photo} alt={'Profile Photo'} />
         <section className={'title-chat-web'}>
           <TitleProfile title={users[0].name} />
-          <TextPreview text={'online'}/>
+          <TextPreview text={'online'} />
         </section>
       </section>
 

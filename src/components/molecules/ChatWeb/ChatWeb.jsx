@@ -9,9 +9,9 @@ export const ChatWeb = () => {
     <div className={'chat-web-container'}>
       {conversation.map(message =>
         message.from === 'me' ? (
-          <Answer answerText={message.value} />
+          <Answer text={message.value} key={message.value}/>
         ) : (
-          <Response responseText={message.value} />
+          <Response text={message.value} key={message.value}/>
         )
       )}
     </div>
