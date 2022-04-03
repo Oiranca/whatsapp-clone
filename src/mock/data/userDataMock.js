@@ -7,6 +7,8 @@ import Ang from '../img/Ang_Li.jpeg';
 import Nguta from '../img/Nguta_Ithya.jpeg';
 import Salome from '../img/Salome_Simoes.jpeg';
 import Andrew from '../img/Andrew_Kazantzis.jpeg';
+import Susan from '../img/Susan_Kazan.jpeg';
+import Steve from '../img/Seteve_Tzis.jpeg';
 import Profile from '../img/Profile.jpg';
 
 export const users = [
@@ -23,8 +25,8 @@ export const users = [
     name: 'Ponnappa Priya',
     photo: Ponnappa,
     dateInformation: {
-      date: 'yesterday',
-      meridiem: ''
+      date: '13:25',
+      meridiem: 'pm'
     },
     preview: 'Maecenas augue nibh, hendrerit at ligula quis, aliquam tristique ante. Aenean auctor.'
   },
@@ -41,7 +43,7 @@ export const users = [
     name: 'Peter Stanbridge',
     photo: Peter,
     dateInformation: {
-      date: '13:45',
+      date: '14:45',
       meridiem: 'pm'
     },
     preview: 'Nam vitae magna ac risus vestibulum ultrices at quis lectus. In vel.'
@@ -68,8 +70,8 @@ export const users = [
     name: 'Nguta Ithya',
     photo: Nguta,
     dateInformation: {
-      date: '15:00',
-      meridiem: 'pm'
+      date: 'yesterday',
+      meridiem: ''
     },
     preview: 'Proin suscipit et ligula a porta. Morbi lacinia, quam at viverra volutpat.'
   },
@@ -77,8 +79,8 @@ export const users = [
     name: 'Salome Simoes',
     photo: Salome,
     dateInformation: {
-      date: '15:50',
-      meridiem: 'pm'
+      date: 'yesterday',
+      meridiem: ''
     },
     preview: 'Vestibulum lectus tellus, mollis vel molestie at, rhoncus et orci. Nam rhoncus.'
   },
@@ -90,6 +92,22 @@ export const users = [
       meridiem: 'pm'
     },
     preview: 'Proin non tristique libero, a luctus nisl. Morbi euismod, libero non tempor.'
+  }, {
+    name: 'Susan Kazan',
+    photo: Susan,
+    dateInformation: {
+      date: '17:50',
+      meridiem: 'pm'
+    },
+    preview: 'Aenean eget nulla metus. Pellentesque tincidunt eget ligula ut pellentesque. Integer sagittis posuere nisi, id.'
+  }, {
+    name: 'Steve Tzis',
+    photo: Steve,
+    dateInformation: {
+      date: '18:50',
+      meridiem: 'pm'
+    },
+    preview: 'Cras non volutpat libero, ac mattis nunc. Maecenas malesuada turpis mollis turpis molestie vulputate. Class.'
   }
 ];
 

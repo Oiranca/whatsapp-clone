@@ -1,0 +1,30 @@
+@use 'src/style/style';
+
+.list-mobile-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-right: 1px solid lightgray;
+  background: white;
+  position: relative;
+
+
+  .chat-icon-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 325px;
+    bottom: 110px;
+    background: #54A984;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+
+    #chat-icon {
+      transform: rotateY(180deg);
+      fill: white;
+    }
+  }
+}
