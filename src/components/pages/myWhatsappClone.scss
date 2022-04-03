@@ -17,7 +17,7 @@
     padding: 4rem;
   }
 
-  .list-and-chat-container {
+  .list-and-chat-container, .list-mobile-container {
     position: absolute;
     top: 1rem;
     width: calc(100% - 25%);
@@ -33,6 +33,19 @@
       top: 0;
       width: 100%;
       height: 100%;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .container-page {
+    .header {
+      display: none;
+    }
+
+    .list-mobile-container {
+      width: 420px;
+      height: 960px;
     }
   }
 }

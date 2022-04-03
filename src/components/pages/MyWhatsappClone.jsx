@@ -1,13 +1,17 @@
 import React from 'react';
 import { ListAndChat } from '../templates/ListAndChat/ListAndChat';
+import { useWindowWidth } from '../../method/resize';
 
 import './myWhatsappClone.scss';
+import { ChatMobileView } from '../views/ChatMobileView/ChatMobileView';
 
 export const MyWhatsappClone = () => {
+  console.log(useWindowWidth());
+
   return (
     <div className={'container-page'}>
       <header className={'header'} />
-      <ListAndChat />
+      {useWindowWidth() >= 960 ? <ListAndChat /> : <ChatMobileView />}
     </div>
   );
 };

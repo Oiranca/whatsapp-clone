@@ -6,6 +6,7 @@
   flex-wrap: nowrap;
   border-right: 1px solid lightgray;
   background: white;
+  position: relative;
 
 
   .chat-icon-container {
@@ -14,8 +15,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 360px;
-    bottom: 50px;
+    left: 325px;
+    bottom: 110px;
     background: #54A984;
     border-radius: 50%;
     width: 4rem;
