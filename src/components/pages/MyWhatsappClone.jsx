@@ -5,6 +5,7 @@ import { useWindowWidth } from '../../method/resize';
 import './myWhatsappClone.scss';
 import { ChatMobileView } from '../views/ChatMobileView/ChatMobileView';
 
+console.log(window.innerWidth);
 export const MyWhatsappClone = () => {
   return (
     <div className={'container-page'}>

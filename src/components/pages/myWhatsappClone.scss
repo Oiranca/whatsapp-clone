@@ -44,7 +44,27 @@
     }
 
     .list-mobile-container {
-      width: 420px;
+      top: 0;
+      width: 450px;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .container-page {
+    .header {
+      display: none;
+    }
+
+    .list-mobile-container {
+      top: 0;
+      width: 375px;
+      height: 100%;
+      .list-users{
+        margin: 0;
+        width: 370px;
+        overflow-x: hidden;
+      }
     }
   }
 }
