@@ -3,9 +3,14 @@
   "name": "Create static clone Whatsapp",
   "icons": [
     {
-      "src": "My_Logo.png",
+      "src": "logo.png",
       "type": "image/png",
-      "sizes": "200x200"
+      "sizes": "1200x1200"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
     }
   ],
   "start_url": ".",
